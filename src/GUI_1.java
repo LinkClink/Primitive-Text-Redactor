@@ -1,4 +1,4 @@
-
+/* Rebuild 08.06.2019 */
 import javax.swing.*;
 
 import javax.swing.filechooser.FileNameExtensionFilter;
@@ -16,7 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class GUI_1 extends JPanel {
-                                    //Ansi    UTF-8
+    //Ansi    UTF-8
     String[] codding = new String[]{"Cp1251","UTF-8"};
     String code_open = "Cp1251";
     String code_save = "Cp1251";
@@ -784,9 +784,9 @@ public class GUI_1 extends JPanel {
             {
                 code_open=codding[1];
 
-               menu_5_sub_1_check_2.setEnabled(false);
-               menu_5_sub_1_check_1.setEnabled(true);
-               menu_5_sub_1_check_1.setState(false);
+                menu_5_sub_1_check_2.setEnabled(false);
+                menu_5_sub_1_check_1.setEnabled(true);
+                menu_5_sub_1_check_1.setState(false);
 
             }
             /** Save ANSI  */
@@ -812,24 +812,5 @@ public class GUI_1 extends JPanel {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
